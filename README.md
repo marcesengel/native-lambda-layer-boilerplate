@@ -4,10 +4,11 @@ Boilerplate to create a lambda layer for native dependencies from.
 ## Usage
 
 1. Clone using `git clone --depth=1 https://github.com/marcesengel/native-lambda-layer-boilerplate.git <YOUR_PROJECT_NAME>`.
-2. Overwrite the `container/build_lib.sh` script with your build. If you need any additional files reference them using relative paths and put them into the `container` directory.
-3. Run `build.sh` in the project root.
-4. Upload the created `layer.zip` to AWS.
-5. Use your Layer :tada: :confetti_ball:
+2. Delete the `.git` folder using `rm -rf .git` and optionally init a fresh repo using `git init`.
+3. Overwrite the `container/build_lib.sh` script with your build. If you need any additional files reference them using relative paths and put them into the `container` directory.
+4. Run `build.sh` in the project root.
+5. Upload the created `layer.zip` to AWS.
+6. Use your Layer :tada: :confetti_ball:
 
 ## Layer layout
 
